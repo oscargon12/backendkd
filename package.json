@@ -1,0 +1,18 @@
+{
+  "name": "backend_kd",
+  "version": "1.0.0",
+  "description": "base de datos de knockDoc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "author": "Oscar Gonzalez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.3",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.12"
+  }
+}
